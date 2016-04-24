@@ -4,9 +4,11 @@
     <description>
         Onsen UI project to create fancy user interfaces for hybrid mobile applications. It uses uses Apache Cordova to help you build an app that targets multiple mobile platforms: Android, iOS, Windows, and Windows Phone.
     </description>
+    <gap:plugin name="com.admob.plugin" source="plugins.cordova.io" version="3.0.0" />
     <author email="dev@onsen.io" href="http://onsen.io">
         Onsen UI Team
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <engine name="android" spec="~4.1.1" />
 </widget>

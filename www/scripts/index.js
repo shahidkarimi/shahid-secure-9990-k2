@@ -13,7 +13,10 @@
         document.addEventListener( 'resume', onResume.bind( this ), false );
 
         $.mobile.allowCrossDomainPages = true;
+
+        admob.initAdmob("ca-app-pub-5083612526133102/5277560008","ca-app-pub-5083612526133102/6754293201");
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
+        admob.showBanner(admob.BannerSize.BANNER, admob.Position.BOTTOM_APP);
     };
 
     function onPause() {

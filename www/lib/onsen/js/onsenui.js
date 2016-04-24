@@ -22682,6 +22682,18 @@ function LoadK2Page(p){
             _p = 1;
         }else if(p=='page2.html'){
             _p= 2;
+        }else if(p=='page3.html'){
+            _p= 3;
+        }else if(p=='page4.html'){
+            _p= 4;
+        }else if(p=='page5.html'){
+            _p= 5;
+        }else if(p=='page6.html'){
+            _p= 6;
+        }else if(p=='page7.html'){
+            _p= 7;
+        }else if(p=='page8.html'){
+            _p= 8;
         }
     }
    

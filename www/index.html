@@ -116,17 +116,17 @@
                     Page 2
                 </ons-list-item>
 
-                <ons-list-item class="menu-item" ng-click="menu.setMainPage('page1.html', {closeMenu: true})">
+                <ons-list-item class="menu-item" ng-click="menu.setMainPage('page3.html', {closeMenu: true})">
                     <ons-icon icon="fa-plus"></ons-icon>
                     Page 3
                 </ons-list-item>
 
-                 <ons-list-item class="menu-item" ng-click="menu.setMainPage('page1.html', {closeMenu: true})">
+                 <ons-list-item class="menu-item" ng-click="menu.setMainPage('page4.html', {closeMenu: true})">
                     <ons-icon icon="fa-plus"></ons-icon>
                     Page 4
                 </ons-list-item>
 
-                 <ons-list-item class="menu-item" ng-click="menu.setMainPage('page1.html', {closeMenu: true})">
+                 <ons-list-item class="menu-item" ng-click="menu.setMainPage('page5.html', {closeMenu: true})">
                     <ons-icon icon="fa-plus"></ons-icon>
                     Page 5
                 </ons-list-item>
@@ -164,7 +164,7 @@
 
             <ons-row style="text-align: center;">
                 <ons-col>
-                <img id="page-k2-1" style="max-width:100%" src="" />
+                <img id="page-k2-1" style="max-width:100%" src="assets/loading.gif" />
                     <ons-button modifier="light" ng-click="menu.toggleMenu()">
                         Toggle Menu
                     </ons-button>
@@ -176,7 +176,7 @@
 
     <ons-template id="page2.html">
         <ons-page>
-            <img id="page-k2-2" style="max-width:100%" src="" />
+        
             <ons-toolbar>
                 <div class="left">
                     <ons-toolbar-button ng-click="menu.toggle()">
@@ -189,11 +189,152 @@
             </ons-toolbar>
 
 
-            <ons-row style="margin-top: 100px; text-align: center;">
+            <ons-row style="text-align: center;">
                 <ons-col>
-                    <ons-button modifier="light" ng-click="menu.toggleMenu()">
-                        Toggle Menu
-                    </ons-button>
+                   <img id="page-k2-2" style="max-width:100%" src="assets/loading.gif" />
+                </ons-col>
+            </ons-row>
+
+        </ons-page>
+    </ons-template>
+
+    <ons-template id="page3.html">
+        <ons-page>
+        
+            <ons-toolbar>
+                <div class="left">
+                    <ons-toolbar-button ng-click="menu.toggle()">
+                        <ons-icon icon="ion-navicon" size="28px" fixed-width="false">
+                        Test
+                        </ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">Page 3</div>
+            </ons-toolbar>
+
+
+            <ons-row style="text-align: center;">
+                <ons-col>
+                   <img id="page-k2-3" style="max-width:100%" src="assets/loading.gif" />
+                </ons-col>
+            </ons-row>
+
+        </ons-page>
+    </ons-template>
+    <ons-template id="page3.html">
+        <ons-page>
+        
+            <ons-toolbar>
+                <div class="left">
+                    <ons-toolbar-button ng-click="menu.toggle()">
+                        <ons-icon icon="ion-navicon" size="28px" fixed-width="false">
+                        Test
+                        </ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">Page 4</div>
+            </ons-toolbar>
+
+
+            <ons-row style="text-align: center;">
+                <ons-col>
+                   <img id="page-k2-4" style="max-width:100%" src="assets/loading.gif" />
+                </ons-col>
+            </ons-row>
+
+        </ons-page>
+    </ons-template>
+
+    <ons-template id="page4.html">
+        <ons-page>
+        
+            <ons-toolbar>
+                <div class="left">
+                    <ons-toolbar-button ng-click="menu.toggle()">
+                        <ons-icon icon="ion-navicon" size="28px" fixed-width="false">
+                        Test
+                        </ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">Page 4</div>
+            </ons-toolbar>
+
+
+            <ons-row style="text-align: center;">
+                <ons-col>
+                   <img id="page-k2-4" style="max-width:100%" src="assets/loading.gif" />
+                </ons-col>
+            </ons-row>
+
+        </ons-page>
+    </ons-template>
+
+    <ons-template id="page5.html">
+        <ons-page>
+        
+            <ons-toolbar>
+                <div class="left">
+                    <ons-toolbar-button ng-click="menu.toggle()">
+                        <ons-icon icon="ion-navicon" size="28px" fixed-width="false">
+                        Test
+                        </ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">Page 5</div>
+            </ons-toolbar>
+
+
+            <ons-row style="text-align: center;">
+                <ons-col>
+                   <img id="page-k2-5" style="max-width:100%" src="assets/loading.gif" />
+                </ons-col>
+            </ons-row>
+
+        </ons-page>
+    </ons-template>
+
+    <ons-template id="page6.html">
+        <ons-page>
+        
+            <ons-toolbar>
+                <div class="left">
+                    <ons-toolbar-button ng-click="menu.toggle()">
+                        <ons-icon icon="ion-navicon" size="28px" fixed-width="false">
+                        Test
+                        </ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">Page 6</div>
+            </ons-toolbar>
+
+
+            <ons-row style="text-align: center;">
+                <ons-col>
+                   <img id="page-k2-6" style="max-width:100%" src="assets/loading.gif" />
+                </ons-col>
+            </ons-row>
+
+        </ons-page>
+    </ons-template>
+
+    <ons-template id="page7.html">
+        <ons-page>
+        
+            <ons-toolbar>
+                <div class="left">
+                    <ons-toolbar-button ng-click="menu.toggle()">
+                        <ons-icon icon="ion-navicon" size="28px" fixed-width="false">
+                        Test
+                        </ons-icon>
+                    </ons-toolbar-button>
+                </div>
+                <div class="center">Page 7</div>
+            </ons-toolbar>
+
+
+            <ons-row style="text-align: center;">
+                <ons-col>
+                   <img id="page-k2-7" style="max-width:100%" src="assets/loading.gif" />
                 </ons-col>
             </ons-row>
 
