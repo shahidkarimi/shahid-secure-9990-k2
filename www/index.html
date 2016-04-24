@@ -11,6 +11,8 @@
     <script src="lib/angular/angular.js"></script>
     <script src="lib/onsen/js/onsenui.js"></script>
 
+    <script src="scripts/jquery-2.2.3.min.js"></script>
+
     <!-- CSS dependencies -->
     <link rel="stylesheet" href="lib/onsen/css/onsenui.css" />
     <link rel="stylesheet" href="lib/onsen/css/onsen-css-components-blue-basic-theme.css" />
@@ -162,7 +164,7 @@
 
             <ons-row style="text-align: center;">
                 <ons-col>
-                <img style="max-width:100%" src="http://epaper.dailyk2.com/newspaper/tnid_6358page_1file_fpglt.jpg" />
+                <img id="page-k2-1" style="max-width:100%" src="" />
                     <ons-button modifier="light" ng-click="menu.toggleMenu()">
                         Toggle Menu
                     </ons-button>
@@ -174,6 +176,7 @@
 
     <ons-template id="page2.html">
         <ons-page>
+            <img id="page-k2-2" style="max-width:100%" src="" />
             <ons-toolbar>
                 <div class="left">
                     <ons-toolbar-button ng-click="menu.toggle()">

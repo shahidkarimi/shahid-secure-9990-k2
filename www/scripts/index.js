@@ -12,6 +12,7 @@
         document.addEventListener( 'pause', onPause.bind( this ), false );
         document.addEventListener( 'resume', onResume.bind( this ), false );
 
+        $.mobile.allowCrossDomainPages = true;
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
     };
 
@@ -23,3 +24,7 @@
         // TODO: This application has been reactivated. Restore application state here.
     };
 } )();
+
+function loadPage($p){
+    alert('IN');
+}

