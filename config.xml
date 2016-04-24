@@ -11,5 +11,4 @@
     <content src="index.html" />
     <access origin="*" />
     <engine name="android" spec="~4.1.1" />
-    <gap:plugin name="com.admob.google" version="2.0.2" source="plugins.cordova.io" />
 </widget>
