@@ -11,5 +11,8 @@
     <content src="index.html" />
     <access origin="*" />
     <engine name="android" spec="~4.1.1" />
-    <gap:plugin name="cordova-admob" source="npm"/>
+    <meta http-equiv="Content-Security-Policy" 
+          content="default-src *; 
+                   style-src 'self' 'unsafe-inline' 'unsafe-eval'; 
+                   script-src 'self' 'unsafe-inline' 'unsafe-eval';" /> 
 </widget>
